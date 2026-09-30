@@ -11,7 +11,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = 'MTU1NDY4MjY0NDYzNjIzNzk2NA.GUw1ll.j0nU3X0SWJ4hBnplp_qlHf0gnhJHqtkSn85uRM';
+const TOKEN = 'token';
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
